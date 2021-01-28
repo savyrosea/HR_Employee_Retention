@@ -81,4 +81,5 @@
 
 ![](https://github.com/savyrosea/HR_Employee_Retention/blob/main/pictures/percents.PNG)
 
-
+## Plotting ROC Curve
+![](https://github.com/savyrosea/HR_Employee_Retention/blob/main/pictures/ROC.PNG)
