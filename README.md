@@ -1,7 +1,7 @@
 # HR_Employee_Retention
 
 
-### ** Data **
+### Data
 ###### Data is from https://www.kaggle.com/giripujar/hr-analytics. This dataset contains variables that describe employees at a company as well as a variable "left" that indicates whether or not the employee was retained the following work year. I'm using this data purely for the purpose of practicing binary classification.
 
 
@@ -15,7 +15,7 @@
 
 ![](https://github.com/savyrosea/HR_Employee_Retention/blob/main/pictures/heatmap.PNG)
 
-##### ** Looking at the Correlation Heatmap it looks as if the top 5 factors for employee retention are: **
+##### Looking at the Correlation Heatmap it looks as if the top 5 factors for employee retention are: 
 
 ##### 1) Employee Satisfaction Level
 
@@ -29,10 +29,29 @@
 
 ##### My initail though was that not many employees would identify as having been in a work accident, so perhaps I could throw that variable out for my analysis. After looking into the data, 16.9% of the employees have identified as being in a workplace accident. This is higher than I originally thought, so I will try my logistic regression with and without this variable.
 
+##### Next, I used bar charts to analyze the categorical variables in the data.
+
 ![](https://github.com/savyrosea/HR_Employee_Retention/blob/main/pictures/salary_bar.PNG)
+
+##### Percent with low salary that left: 42.2%
+
+##### Percent with medium salary that left: 25.7%
+
+##### Percent with high salary that left: 7.1%
+
+##### These percents vary greatly. Therefore, I am concluding salary has a high impact on whether or not an employee will leave the following year.
 
 ![](https://github.com/savyrosea/HR_Employee_Retention/blob/main/pictures/bar_department.PNG)
 
+##### Percent in Sales that left: 32.4%
+
+##### Percent in HR that left: 41%
+
+##### Percent in Technical that left: 34.5%
+
+##### Percent in Support that left: 33.2%
+
+##### These percents are much closer to each other, so I am not going to use department in my analysis.
 
 ### Cleaning
 ##### This data is from Kaggle and therefore did not require mcuh initial cleaning. After I renamed some columns and preformed EDA, I created dummy columns from the categorical salary data to use in my logistic regressiona nd random forest.
