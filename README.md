@@ -1,13 +1,16 @@
 # HR_Employee_Retention
 
 
+
 ## Data
 ###### Data is from https://www.kaggle.com/giripujar/hr-analytics. This dataset contains variables that describe employees at a company as well as a variable "left" that indicates whether or not the employee was retained the following work year. I'm using this data purely for the purpose of practicing binary classification.
+
 
 
 ## Project
 ##### For this project I am trying to predict employee retention based on employee data such as salary, number of hours worked, evaluation score etc.
 ##### My goal is to solve this classification problem two ways : with Logistic Regression and with Random Forest. I want to compare the scores of each model and come to a conclusion about which method is the best to use for this particular problem.
+
 
 
 ## EDA on Employee Turnover
@@ -53,18 +56,28 @@
 
 ##### These percents are much closer to each other, so I am not going to use department in my analysis.
 
+
+
 ## Cleaning
 ##### This data is from Kaggle and therefore did not require much initial cleaning. After I renamed some columns and preformed EDA, I created dummy columns from the categorical salary data to use in my logistic regressiona nd random forest.
 ![](https://github.com/savyrosea/HR_Employee_Retention/blob/main/pictures/dummy_var.PNG)
 
 
-## Logistic Regression
 
+## Binary Classification
 
-## Random Forest
+### Logistic Regression
+
+##### I ran sklearn logistic regression models both with and without standardizing independent features. I used a random_state to make my results repeatable and got a slightly better result when I did not standardize the data with an accuracy score of 76.2%.
+
+### Random Forest
+
+##### My random forest model worked even better with a accuracy score of 97.6%.
 
 
 ## Predictive Probability
+
+##### Since I had more success with my random foret model, I used that model to get the predictive probablity that each employee would stay the following year.
 
 ![](https://github.com/savyrosea/HR_Employee_Retention/blob/main/pictures/percents.PNG)
 
