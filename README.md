@@ -1,7 +1,7 @@
 # HR_Employee_Retention
 
 
-### Data
+### ___Data___
 ###### Data is from https://www.kaggle.com/giripujar/hr-analytics. This dataset contains variables that describe employees at a company as well as a variable "left" that indicates whether or not the employee was retained the following work year. I'm using this data purely for the purpose of practicing binary classification.
 
 
@@ -15,7 +15,7 @@
 
 ![](https://github.com/savyrosea/HR_Employee_Retention/blob/main/pictures/heatmap.PNG)
 
-##### Looking at the Correlation Heatmap it looks as if the top 5 factors for employee retention are:
+##### ___Looking at the Correlation Heatmap it looks as if the top 5 factors for employee retention are:___
 
 ##### 1) Employee Satisfaction Level
 
