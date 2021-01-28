@@ -59,7 +59,7 @@
 
 
 ## Cleaning
-##### This data is from Kaggle and therefore did not require much initial cleaning. After I renamed some columns and preformed EDA, I created dummy columns from the categorical salary data to use in my logistic regressiona nd random forest.
+##### This data is from Kaggle and therefore did not require much initial cleaning. After I renamed some columns and preformed EDA, I created dummy columns from the categorical salary data to use in my logistic regression and random forest.
 ![](https://github.com/savyrosea/HR_Employee_Retention/blob/main/pictures/dummy_var.PNG)
 
 
@@ -68,7 +68,7 @@
 
 ### Logistic Regression
 
-##### I ran sklearn logistic regression models both with and without standardizing independent features. I used a random_state to make my results repeatable and got a slightly better result when I did not standardize the data with an accuracy score of 76.2%.
+##### I ran sklearn logistic regression models both with and without standardizing independent features. I used a random_state to make my results repeatable and got a slightly better result when I did not standardize the data with an accuracy score of 76.2%. I ran this model with different compenations of input variables: I got the best results when I included the top 5 higest correlated numerical variables except for the "Work accident" variable as well as the "salary" categorical variable.
 
 ### Random Forest
 
