@@ -72,7 +72,7 @@
 
 ### Random Forest
 
-##### My random forest model worked even better with a accuracy score of 97.6%.
+##### My random forest model worked even better with a accuracy score of 97.6%. When running this model I again chose to use the top 5 higest correlated numerical variables except for the "Work accident" variable as well as the "salary" categorical variable.
 
 
 ## Predictive Probability
